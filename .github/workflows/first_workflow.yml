@@ -24,5 +24,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          build-args: |
-            DOCKER_METADATA_OUTPUT_JSON
+          tags: $DOCKER_METADATA_OUTPUT_TAGS
