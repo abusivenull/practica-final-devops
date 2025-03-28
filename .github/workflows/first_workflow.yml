@@ -25,4 +25,4 @@ jobs:
         with:
           push: true
           tags: |
-            DOCKER_METADATA_OUTPUT_TAGS
+            ${{ DOCKER_METADATA_OUTPUT_TAGS }}
