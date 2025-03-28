@@ -12,8 +12,6 @@ on:
 jobs:
   firstjob:
     runs-on: ubuntu-latest
-    env:
-      DOCKER_METADATA_SET_OUTPUT_ENV
     steps:
       - uses: actions/checkout@v4
       - name: Get Git metadata for docker image
